@@ -1,0 +1,21 @@
+{
+  "name": "js_testing_from_scratch",
+  "version": "1.0.0",
+  "main": "math.js",
+  "scripts": {
+    "test": "jest",
+    "test-all": "node 1.js && node 2.js && node 3.js && node 4.js && jest"
+  },
+  "keywords": [],
+  "repository": "git@github.com:yeongsheng-tan/js_testing_from_scratch.git",
+  "author": "tanyeongsheng@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "22.0.4"
+  },
+  "jest": {
+    "testMatch": [
+      "**/5.js"
+    ]
+  }
+}
